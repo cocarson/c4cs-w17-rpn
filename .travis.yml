@@ -4,6 +4,6 @@ python:
 install:
   - pip install coveralls
 script:
-  coverage run --source=wk10-advanced python3 -m unittest
+  coverage run -m unittest
 after_success:
   - coveralls
