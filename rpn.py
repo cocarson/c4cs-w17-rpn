@@ -31,7 +31,8 @@ def calculate(arg):
 def main():
     while True:
         result = calculate(input('rpn calc> '))
-        print("Result:", colored(result, 'red', attrs=['bold']))
+        # print("Result:", colored(result, 'red', attrs=['bold']))
+        print result
 
 if __name__ == '__main__':
     main()
